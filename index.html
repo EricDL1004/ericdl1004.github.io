@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar start -->
+    <header class="header">
+        <a href="#home" class="logo">Eric
+            <span>Li</span>
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Eric</span></h1>
+            <h3 class="text-animation"><span></span></h3>
+            <p>Django Backend, Based in Taiwan</p>
+            <div class="social-icons">
+                <a href="https://github.com/EricDL1004"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/ericlll888/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/Ericde1004"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+            <div class="btn-group wow fadeInUp">
+                <button class="btn" id="downloadButton">Download CV</button>
+            </div>
+        </div>
+            <div class="home-img  wow bounce" data-wow-delay="0.2s">
+                <img src="/images/picture.jpg">
+            </div>
+    </section>
+    <!-- navbar end -->
+
+    <!-- aobut start -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-img wow fadeInLeft">
+                <img src="images/img.png">
+            </div>
+            <div class="text-content">
+                <h2 class="heading">About Me</h2>
+                <h3>As a Backend Developer, I have a growing passion for creating functional applications, 
+                    primarily utilizing Django and Python. <br>
+                    Although I'm relatively new in the field, I am steadily honing my skills with these primary technologies. <br>
+                    My development toolkit also includes exposure to Java, MySQL, Android, HTML, CSS, and JavaScript. 
+                    I using Git for version control. Eager to grasp new concepts, I'm actively expanding my technical knowledge. <br>
+                    I thrive on collaboration and am keen to work with experienced teams to develop my expertise and contribute to developing exceptional applications. 
+                </h3>
+                <div class="btn-group wow fadeInUp">
+                    <button class="btn" id="educationButton">Education</button>
+                </div>
+                <div class="education">
+                    <ul>
+                        <li>Computer Science and Information Engineering - Vanung University</li>
+                    </ul>
+                </div>
+                    <!-- content show -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- skills start -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/python.png">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/java.png">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/django.png">
+                        <span>Django</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/mysql.png">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/html.png">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/css.png">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/js.png">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/linux.png">
+                        <span>Linux</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/images/android.png">
+                        <span>Android</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills end -->
+
+    <!-- projects start -->
+    <section class="projects" id="projects">
+        <div class="projects-box">
+            <h2 class="heading">Projects</h2>
+            <div class="wrapper">
+                <div class="project-item">
+                    <img src="images/sogood.jpg">
+                    <h2>搜股網</h2>
+                    <ul>
+                        <li>Used to search for Taiwan stocks</li>
+                        <li>Django is used as the backend framework.</li>
+                        <li>Data is retrieved using the Python modules: twstock and yfinance.</li>
+                        <li>MySQL/SQLite is used as the database.</li>
+                        <li>Web pages are designed using HTML, CSS, and JavaScript.</li>
+                    </ul>
+                </div>
+                <!-- <div class="project-item">
+                    <img src="images/django.png">
+                    <h2>搜股網</h2>
+                    <ul>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>5</li>
+                        <li>6</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- projects end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="social">        
+            <a href="https://github.com/EricDL1004"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/ericlll888/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://x.com/Ericde1004"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>           
+        </ul>
+        <p class="copyright">
+            &copy; Eric Li | All Right Reserved
+        </p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="script.js"></script>
+</body>
+</html>
