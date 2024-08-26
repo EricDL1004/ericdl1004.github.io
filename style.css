@@ -266,7 +266,7 @@ span{
     }
 }
 .heading{
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
     margin: 5rem 0;
 }
@@ -306,10 +306,10 @@ span{
     flex-direction: column;
     user-select: none;
 }
-.text-content h3 {
+.text-content h4 {
     margin-bottom: 3rem;
     margin-top: -3rem;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 /* .timeline-items{
     max-width: 1200px;
@@ -465,7 +465,7 @@ span{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 3rem;
 }
 .project-item{
@@ -497,6 +497,36 @@ span{
 .project-item ul{
     font-size: 1.8rem;
 }
+.project2-item{
+    min-height: 550px;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgba(238, 238, 238, 0.2);
+    border-radius: 2rem;
+    margin: 0 2rem;
+    padding: 30px 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 1.5rem;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.project2-item:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+.project2-item h2{
+    font-size: 2.8rem;
+}
+.project2-item ul{
+    font-size: 1.8rem;
+}
+
 /* 
 .contact{
     background-color: var(--bg-color);

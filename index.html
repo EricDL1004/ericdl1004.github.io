@@ -10,8 +10,8 @@
 <body>
     <!-- navbar start -->
     <header class="header">
-        <a href="#home" class="logo">Eric
-            <span>Li</span>
+        <a href="#home" class="logo">李明德
+            <span>Eric Li</span>
         </a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
@@ -52,20 +52,19 @@
                 <img src="images/img.png">
             </div>
             <div class="text-content">
-                <h2 class="heading">About Me</h2>
-                <h3>As a Backend Developer, I have a growing passion for creating functional applications, 
-                    primarily utilizing Django and Python. <br>
-                    Although I'm relatively new in the field, I am steadily honing my skills with these primary technologies. <br>
-                    My development toolkit also includes exposure to Java, MySQL, Android, HTML, CSS, and JavaScript. 
-                    I using Git for version control. Eager to grasp new concepts, I'm actively expanding my technical knowledge. <br>
-                    I thrive on collaboration and am keen to work with experienced teams to develop my expertise and contribute to developing exceptional applications. 
-                </h3>
+                <h3 class="heading">About Me</h3>
+                <h4>做為一名後端開發者，我對於建立網站有著濃厚的興趣，主要使用 Django 和 Python。<br>
+                    雖然我在這個領域還算新人，但我正逐步提升自己在這些核心技術上的技能。<br>
+                    我的開發工具包括 Java、MySQL、Android、HTML、CSS 和 JavaScript。<br>
+                    我也會使用 Git 進行版本控制。為了掌握新概念，我正在積極擴展自己的技術知識。<br>
+                    我很喜歡團隊合作，渴望與有經驗的團隊一起工作，不僅能提升自己的專業能力，還能為開發出色的網站貢獻自己的力量。
+                </h4>
                 <div class="btn-group wow fadeInUp">
                     <button class="btn" id="educationButton">Education</button>
                 </div>
                 <div class="education">
                     <ul>
-                        <li>Computer Science and Information Engineering - Vanung University</li>
+                        <li>萬能科技大學 - 資訊工程系</li>
                     </ul>
                 </div>
                     <!-- content show -->
@@ -144,21 +143,48 @@
     <section class="projects" id="projects">
         <div class="projects-box"> 
             <h2 class="heading">Projects</h2>
-            <a href="https://github.com/EricDL1004/sogood">
+            <a href="https://github.com/EricDL1004/stocksearch">
             <div class="wrapper">
                 <div class="project-item">
-                    <img src="images/sogood.jpg">
+                    <img src="images/stocksearch.jpg">
                     <h2>搜股網</h2>
                     <ul>
-                        <li>Used to search for Taiwan stocks</li>
-                        <li>Django is used as the backend framework.</li>
-                        <li>Data is retrieved using the Python modules: twstock and yfinance.</li>
-                        <li>MySQL/SQLite is used as the database.</li>
-                        <li>Web pages are designed using HTML, CSS, and JavaScript.</li>
+                        <li>選用技術: HTML、CSS、JavaScript、Python、Django、MySQL</li>
+                        <li>用於搜尋台灣股票網站</li>
+                        <li>從 twstock 和 yfinance 的 API 撈取資料後並儲存至資料庫將資料顯示於前端網頁</li>
+                        <li>會員可使用群組功能增設自選股</li>
+                        <li>查詢ETF資訊</li>
+                        <li>搜尋各個股票技術分析圖</li>
                     </ul>
                 </div>
+            </a>
+            <a href="https://github.com/EricDL1004/cart">
+            <div class="project2-item">
+                <img src="images/公仔購物網.jpg">
+                <h2>公仔購物網</h2>
+                <ul>
+                    <li>選用技術: HTML、CSS、JavaScript、Python、Django、SQLite</li>
+                    <li>商品展示: <br>                   
+                        主頁顯示所有可購買的公仔商品。<br>
+                        商品詳細頁提供商品的名稱、介紹和價格。
+                    </li>
+                    <li>購物車: <br>
+                        客戶可以將商品加入到購物車中。 <br>
+                        購物車顯示客戶所選商品的名稱、數量、總價和運費。
+                    </li>
+                    <li>訂單管理: <br>
+                        客戶可以確認購物清單和填寫個人相關資訊以及付款方式。<br>
+                        訂單確認後生成唯一的訂單編號，並發送電子郵件通知客戶訂單詳細資訊。<br>
+                        客戶可以查詢歷史訂單資訊。
+                    </li>
+                    <li>郵件通知: <br>
+                        使用 SMTP 發送郵件，向客戶通知訂單確認信。
+                    </li>
+                </ul>
             </div>
             </a>
+        </div>
+           
         </div>
     </section>
     <!-- projects end -->
